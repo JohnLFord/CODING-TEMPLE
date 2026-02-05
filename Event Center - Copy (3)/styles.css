@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: deepskyblue;
+}
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* top: 0;
+  left: 0;
+  width: 100%; */
+  padding: 10px 10px;
+  background-color:deepskyblue;
+}
+
+.logo {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+ .logo .Cormick {
+  color: white;
+}
+.logo .Place {
+  color: blue;
+}
+
+ .navigation  {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 30px;
+   margin-bottom: 20px;
+   position: relative;
+   gap: 10px;
+}
+ .navigation li a {
+  text-decoration: none;
+  color: #db0707;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+#myBtn {
+  display: none; /* Still hidden initially */
+  position: absolute; /* Positions relative to footer */
+  bottom: 20px;
+  right: 20px;
+  z-index: 10; /* Stays on top within footer */
+  /* Keep your existing styling */
+}
+
+  .Banner {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+ text-align: center;
+ color:white;
+ height: 100vh;
+  }
+ h1 { 
+  color: blue;
+  text-align: center;
+}
+.pics { display: grid; 
+  grid-template-columns: repeat(2, 1fr); /* always 2 columns */
+   gap: 10px; /* spacing between images */
+   margin:40px auto;
+   max-width: 800px;
+   } 
+
+  .pics img { 
+     width:100%;
+   height:200px;
+   object-fit: cover;
+ }
+ .footer { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px; 
+  background-color:deepskyblue;
+  color:white;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+
+}
+ .About {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
+ }
+ .Contact  { 
+  display: flex;
+  justify-content: center;
+  color:white;
+  align-items: center;
+ }
+ .img {
+  margin:0 auto;
+ }
+ .AP {
+  display: flex;
+  flex-direction: column;
+ }
