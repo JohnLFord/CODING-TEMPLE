@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "scripts": {
-    "dev": "npm run dev --prefix spa-router",
-    "build": "npm run build --prefix spa-router",
-    "lint": "npm run lint --prefix spa-router",
-    "preview": "npm run preview --prefix spa-router"
-  }
-}
